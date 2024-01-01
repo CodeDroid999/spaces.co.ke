@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/studio/node_modules
 /.pnp
 .pnp.js
 
@@ -15,14 +14,10 @@
 
 # production
 /build
-/studio/dist
 
 # misc
 .DS_Store
 *.pem
-.vscode
-*.iml
-.idea
 
 # debug
 npm-debug.log*
@@ -32,16 +27,11 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-
-# Env files created by scripts for working locally
-.env
-studio/.env.development
-
-.vercel
-.env*.local
+next-env.d.ts
